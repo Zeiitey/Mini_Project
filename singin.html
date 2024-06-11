@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>MiniProject</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+  <div class="flex gap-5 justify-between items-center px-5 md:px-20 w-full text-lg text-center bg-red-600 flex-wrap">
+      <img src="./img/download (26).jpg" alt="" width="80px" >
+      <div class="flex gap-5 justify-between self-stretch my-auto flex-wrap">
+          <div><a href="http://127.0.0.1:5500/Mini-Project/home.html">HOME</a></div>
+          <div>MOVIE</div>
+          <div>TV SHOWS</div>
+          <div><a href="http://127.0.0.1:5500/Mini-Project/about.html">ABOUT</a></div>
+      </div>
+      <div class="justify-center self-stretch px-5 py-2 md:px-12 md:py-4 my-auto rounded-xl bg-black">
+          <a href="http://127.0.0.1:5500/Mini-Project/singin.html">Sign in</a>
+      </div>
+  </div>
+
+  <!-- Main Content Section -->
+  <div class="relative min-h-screen overflow-hidden">
+      <img src="./img/download (7).jpg" alt="Background Image" class="absolute inset-0 w-full h-full object-cover">
+      <div class="relative flex flex-col items-center min-h-screen bg-black bg-opacity-50">
+          <div class="relative mt-10 md:mt-20 max-w-5xl w-full text-white p-5">
+              <div class="text-3xl text-red-600">
+                  Movies
+              </div>
+              <div class="mt-5 md:mt-10 mx-2 text-xl md:text-3xl">
+                  Movies move us like nothing else can, whether they’re scary, funny, dramatic, romantic or anywhere in-between. So many titles, so much to experience.
+              </div>
+              <div class="flex flex-col items-center mt-10 md:mt-24 w-full">
+                  <div class="text-3xl mb-10"></div>
+                  <div class="flex flex-col items-center p-5 md:p-20 bg-white bg-opacity-10 border border-white rounded-xl shadow-sm mb-10 w-full max-w-lg">
+                      <div class="text-2xl md:text-5xl text-center mb-10 md:mb-16">Sign in</div>
+                      <input type="text" placeholder="Email or mobile phone" class="w-full px-5 py-3 mt-5 md:mt-10 border rounded-xl border-gray-300">
+                      <input type="password" placeholder="Password" class="w-full px-5 py-3 mt-5 md:mt-10 border rounded-xl border-gray-300">
+                      <button class="w-full px-5 py-3 mt-5 md:mt-10 bg-red-600 text-white rounded-xl">Sign in</button>
+                      <div class="mt-5 md:mt-10 text-center cursor-pointer">Forget password</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+</body>
+</html>
